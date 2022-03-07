@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:stretchColumns="*"
+    tools:context=".Welcome">
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Shop by Categories"/>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="179dp"
+            android:src="@drawable/electronics" />
+
+        <ImageView
+            android:layout_width="206dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/clothing" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Electronics"/>
+        <TextView
+            android:text="Clothing"/>
+    </TableRow>
+
+    <TableRow>
+        <ImageView
+            android:src="@drawable/food"/>
+        <ImageView
+            android:src="@drawable/beauty"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Food"/>
+        <TextView
+            android:text="Beauty"/>
+    </TableRow>
+</TableLayout>
